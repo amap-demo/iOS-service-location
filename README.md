@@ -15,6 +15,7 @@
 | AMapLocationManager	| BOOL allowsBackgroundLocationUpdates; | 是否允许后台定位 | v2.0.0 |
 
 ## 核心难点 ##
+`Objective-C`
 
 ```
 /* 设置后台定位. */
@@ -33,4 +34,17 @@
 
 //开始进行连续定位
 [self.locationManager startUpdatingLocation];
+```
+`Swift`
+
+```
+/* 设置后台定位. */
+locationManager = AMapLocationManager()
+locationManager.delegate = self
+locationManager.pausesLocationUpdatesAutomatically = false
+locationManager.allowsBackgroundLocationUpdates = true
+locationManager.locatingWithReGeocode = true
+
+//开始进行连续定位
+locationManager.startUpdatingLocation()
 ```

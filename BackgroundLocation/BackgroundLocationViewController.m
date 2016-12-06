@@ -55,11 +55,11 @@
 
 - (void)updateLabelTextWithLocation:(CLLocation *)location regeocode:(AMapLocationReGeocode *)regeocode
 {
-    NSMutableString *infoString = [NSMutableString stringWithFormat:@"连续定位完成:%d\n\n回调时间:%@\n经 度:%f\n纬 度\t:%f\n精 度:%f米\n海 拔:%f米\n速 度:%f\n角 度:%f\n", (int)self.locateCount, location.timestamp, location.coordinate.longitude, location.coordinate.latitude, location.horizontalAccuracy, location.altitude, location.speed, location.course];
+    NSMutableString *infoString = [NSMutableString stringWithFormat:@"连续定位完成:%d\n\n回调时间:%@\n经 度:%f\n纬 度:%f\n精 度:%f米\n海 拔:%f米\n速 度:%f\n角 度:%f\n", (int)self.locateCount, location.timestamp, location.coordinate.longitude, location.coordinate.latitude, location.horizontalAccuracy, location.altitude, location.speed, location.course];
     
     if (regeocode)
     {
-        NSString *regeoString = [NSString stringWithFormat:@"国 家:%@\n省:%@\n市:%@\n城市编码:%@\n区:%@\n区 域:%@\n地 址:%@\n兴趣点:%@\n", regeocode.country, regeocode.province, regeocode.city, regeocode.citycode, regeocode.district, regeocode.adcode, regeocode.formattedAddress, regeocode.POIName];
+        NSString *regeoString = [NSString stringWithFormat:@"国 家:%@\n省:%@\n市:%@\n城市编码:%@\n区:%@\n区域编码:%@\n地 址:%@\n兴趣点:%@\n", regeocode.country, regeocode.province, regeocode.city, regeocode.citycode, regeocode.district, regeocode.adcode, regeocode.formattedAddress, regeocode.POIName];
         [infoString appendString:regeoString];
     }
     

@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D8BACC76A3044BBB4203DF /* libPods-BackgroundLocation-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B57800081C96C7AF3F7401F3 /* libPods-BackgroundLocation-swift.a */; };
 		3AE62DBC1DCC687E00078B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE62DBB1DCC687E00078B66 /* main.m */; };
 		3AE62DBF1DCC687E00078B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE62DBE1DCC687E00078B66 /* AppDelegate.m */; };
 		3AE62DC71DCC687E00078B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE62DC61DCC687E00078B66 /* Assets.xcassets */; };
 		3AE62DCA1DCC687E00078B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE62DC81DCC687E00078B66 /* LaunchScreen.storyboard */; };
 		3AE62DD51DCC69E900078B66 /* BackgroundLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE62DD21DCC69E900078B66 /* BackgroundLocationViewController.m */; };
+		6A1CEFF21DF693AD00DB1447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CEFF11DF693AD00DB1447 /* AppDelegate.swift */; };
+		6A1CEFF41DF693AD00DB1447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CEFF31DF693AD00DB1447 /* ViewController.swift */; };
+		6A1CEFF71DF693AD00DB1447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1CEFF51DF693AD00DB1447 /* Main.storyboard */; };
+		6A1CEFF91DF693AD00DB1447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1CEFF81DF693AD00DB1447 /* Assets.xcassets */; };
+		6A1CEFFC1DF693AD00DB1447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A1CEFFA1DF693AD00DB1447 /* LaunchScreen.storyboard */; };
 		74FB0B91C1C072B24F7A0636 /* libPods-BackgroundLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BCE2936506E431CB9DEEE0 /* libPods-BackgroundLocation.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +35,17 @@
 		3AE62DD41DCC69E900078B66 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
 		4FCAE2E2144990F6CA0E7654 /* Pods-BackgroundLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundLocation/Pods-BackgroundLocation.debug.xcconfig"; sourceTree = "<group>"; };
 		6186DF377CD579E84A0D799F /* Pods-BackgroundLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundLocation/Pods-BackgroundLocation.release.xcconfig"; sourceTree = "<group>"; };
+		6A1CEFEF1DF693AD00DB1447 /* BackgroundLocation-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackgroundLocation-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1CEFF11DF693AD00DB1447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A1CEFF31DF693AD00DB1447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A1CEFF61DF693AD00DB1447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A1CEFF81DF693AD00DB1447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A1CEFFB1DF693AD00DB1447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A1CEFFD1DF693AD00DB1447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A1CF0011DF693C300DB1447 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		B57800081C96C7AF3F7401F3 /* libPods-BackgroundLocation-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackgroundLocation-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7ABFAF45ABC2A723665BC4 /* Pods-BackgroundLocation-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundLocation-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundLocation-swift/Pods-BackgroundLocation-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		C51F3CDA583AE20847D153A7 /* Pods-BackgroundLocation-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundLocation-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundLocation-swift/Pods-BackgroundLocation-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +57,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A1CEFEC1DF693AD00DB1447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D8BACC76A3044BBB4203DF /* libPods-BackgroundLocation-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE62DB91DCC687E00078B66 /* BackgroundLocation */,
+				6A1CEFF01DF693AD00DB1447 /* BackgroundLocation-swift */,
 				3AE62DB81DCC687E00078B66 /* Products */,
 				FDCE26911B0F202A77533561 /* Pods */,
 				75D110FBE32F058377C0F232 /* Frameworks */,
@@ -57,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE62DB71DCC687E00078B66 /* BackgroundLocation.app */,
+				6A1CEFEF1DF693AD00DB1447 /* BackgroundLocation-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +120,25 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		6A1CEFF01DF693AD00DB1447 /* BackgroundLocation-swift */ = {
+			isa = PBXGroup;
+			children = (
+				6A1CEFF11DF693AD00DB1447 /* AppDelegate.swift */,
+				6A1CEFF31DF693AD00DB1447 /* ViewController.swift */,
+				6A1CF0011DF693C300DB1447 /* Swift-Bridging-Header.h */,
+				6A1CEFF51DF693AD00DB1447 /* Main.storyboard */,
+				6A1CEFF81DF693AD00DB1447 /* Assets.xcassets */,
+				6A1CEFFA1DF693AD00DB1447 /* LaunchScreen.storyboard */,
+				6A1CEFFD1DF693AD00DB1447 /* Info.plist */,
+			);
+			path = "BackgroundLocation-swift";
+			sourceTree = "<group>";
+		};
 		75D110FBE32F058377C0F232 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				09BCE2936506E431CB9DEEE0 /* libPods-BackgroundLocation.a */,
+				B57800081C96C7AF3F7401F3 /* libPods-BackgroundLocation-swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,6 +148,8 @@
 			children = (
 				4FCAE2E2144990F6CA0E7654 /* Pods-BackgroundLocation.debug.xcconfig */,
 				6186DF377CD579E84A0D799F /* Pods-BackgroundLocation.release.xcconfig */,
+				BF7ABFAF45ABC2A723665BC4 /* Pods-BackgroundLocation-swift.debug.xcconfig */,
+				C51F3CDA583AE20847D153A7 /* Pods-BackgroundLocation-swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -133,17 +177,48 @@
 			productReference = 3AE62DB71DCC687E00078B66 /* BackgroundLocation.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6A1CEFEE1DF693AD00DB1447 /* BackgroundLocation-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1CEFFE1DF693AD00DB1447 /* Build configuration list for PBXNativeTarget "BackgroundLocation-swift" */;
+			buildPhases = (
+				A2843644CAB499EF6E793848 /* [CP] Check Pods Manifest.lock */,
+				6A1CEFEB1DF693AD00DB1447 /* Sources */,
+				6A1CEFEC1DF693AD00DB1447 /* Frameworks */,
+				6A1CEFED1DF693AD00DB1447 /* Resources */,
+				5EE6919C13FF0A7AF02BCFA7 /* [CP] Embed Pods Frameworks */,
+				5C0857673BED84BDAFDB0AA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackgroundLocation-swift";
+			productName = "BackgroundLocation-swift";
+			productReference = 6A1CEFEF1DF693AD00DB1447 /* BackgroundLocation-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3AE62DAF1DCC687E00078B66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = AutoNavi;
 				TargetAttributes = {
 					3AE62DB61DCC687E00078B66 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6A1CEFEE1DF693AD00DB1447 = {
+						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -168,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				3AE62DB61DCC687E00078B66 /* BackgroundLocation */,
+				6A1CEFEE1DF693AD00DB1447 /* BackgroundLocation-swift */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +255,16 @@
 			files = (
 				3AE62DCA1DCC687E00078B66 /* LaunchScreen.storyboard in Resources */,
 				3AE62DC71DCC687E00078B66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1CEFED1DF693AD00DB1447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1CEFFC1DF693AD00DB1447 /* LaunchScreen.storyboard in Resources */,
+				6A1CEFF91DF693AD00DB1447 /* Assets.xcassets in Resources */,
+				6A1CEFF71DF693AD00DB1447 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +286,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackgroundLocation/Pods-BackgroundLocation-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5C0857673BED84BDAFDB0AA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackgroundLocation-swift/Pods-BackgroundLocation-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE6919C13FF0A7AF02BCFA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BackgroundLocation-swift/Pods-BackgroundLocation-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		621FDEC1ABA72117DFD0546E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,7 +328,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2843644CAB499EF6E793848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DF1CA24B5C2B428DB401F76F /* [CP] Copy Pods Resources */ = {
@@ -243,6 +374,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6A1CEFEB1DF693AD00DB1447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1CEFF41DF693AD00DB1447 /* ViewController.swift in Sources */,
+				6A1CEFF21DF693AD00DB1447 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -250,6 +390,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3AE62DC91DCC687E00078B66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A1CEFF51DF693AD00DB1447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1CEFF61DF693AD00DB1447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A1CEFFA1DF693AD00DB1447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A1CEFFB1DF693AD00DB1447 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -375,6 +531,45 @@
 			};
 			name = Release;
 		};
+		6A1CEFFF1DF693AD00DB1447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7ABFAF45ABC2A723665BC4 /* Pods-BackgroundLocation-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "BackgroundLocation-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.BackgroundLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d723e77c-6c92-4e6a-98d7-8717d0b88b87";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./BackgroundLocation-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A1CF0001DF693AD00DB1447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51F3CDA583AE20847D153A7 /* Pods-BackgroundLocation-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "BackgroundLocation-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.BackgroundLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./BackgroundLocation-swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,6 +587,15 @@
 			buildConfigurations = (
 				3AE62DCF1DCC687E00078B66 /* Debug */,
 				3AE62DD01DCC687E00078B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A1CEFFE1DF693AD00DB1447 /* Build configuration list for PBXNativeTarget "BackgroundLocation-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1CEFFF1DF693AD00DB1447 /* Debug */,
+				6A1CF0001DF693AD00DB1447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
