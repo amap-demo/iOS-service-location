@@ -25,8 +25,12 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>AMapLocationKit需要定位权限才可以使用</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>需要定位权限</string>
+	<string>AMapLocationKit需要定位权限才可以使用</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>AMapLocationKit需要定位权限才可以使用</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
