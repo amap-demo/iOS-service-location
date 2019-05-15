@@ -75,7 +75,7 @@ class ViewController: UIViewController, AMapLocationManagerDelegate {
     
     //MARK: - Helpers
     
-    func locateAction(sender: UISegmentedControl) {
+    @objc func locateAction(sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 1 {
             // stop locating
             locationManager.stopUpdatingLocation()
@@ -101,6 +101,10 @@ class ViewController: UIViewController, AMapLocationManagerDelegate {
     }
     
     //MARK: - AMapLocationManagerDelegate
+    
+    func amapLocationManager(_ manager: AMapLocationManager!, doRequireLocationAuth locationManager: CLLocationManager!) {
+        locationManager.requestAlwaysAuthorization()
+    }
     
     func amapLocationManager(_ manager: AMapLocationManager!, didFailWithError error: Error!) {
         print("Error:\(error)")

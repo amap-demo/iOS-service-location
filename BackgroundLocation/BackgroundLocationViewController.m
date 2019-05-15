@@ -68,6 +68,10 @@
 
 #pragma mark - AMapLocationManager Delegate
 
+- (void)amapLocationManager:(AMapLocationManager *)manager doRequireLocationAuth:(CLLocationManager*)locationManager {
+    [locationManager requestAlwaysAuthorization];
+}
+
 - (void)amapLocationManager:(AMapLocationManager *)manager didFailWithError:(NSError *)error
 {
     NSLog(@"%s, amapLocationManager = %@, error = %@", __func__, [manager class], error);
